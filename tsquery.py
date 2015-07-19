@@ -11,11 +11,7 @@ settings = {
 
 def query():
     """
-    Query the TeamSpeak3 server for status, and output a JSON
-    representation.
-
-    The JSON we return is targeted towards the jQuery plugin Dynatree
-    http://code.google.com/p/dynatree/
+    Query the TeamSpeak3 server for status information
 
     """
     try:
