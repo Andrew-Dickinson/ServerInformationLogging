@@ -5,7 +5,12 @@ Uses <a href="https://github.com/nikdoof/python-ts3">python-ts3</a> and <a href=
 
 The html file log_analysis.html is included and is designed to query the csv output to create pretty graphs of the statistical output. This implements the <a href="https://developers.google.com/chart/">google charts javascript api</a>.
 
-![alt tag](https://raw.githubusercontent.com/Andrew-Dickinson/ServerInformationLogging/master/screenshots/Capture.PNG)
-![alt tag](https://raw.githubusercontent.com/Andrew-Dickinson/ServerInformationLogging/master/screenshots/Capture2PNG)
-![alt tag](https://raw.githubusercontent.com/Andrew-Dickinson/ServerInformationLogging/master/screenshots/Capture3.PNG)
+# Raw Log
 ![alt tag](https://raw.githubusercontent.com/Andrew-Dickinson/ServerInformationLogging/master/screenshots/Capture4.PNG)
+
+# Pretty log
+![alt tag](https://raw.githubusercontent.com/Andrew-Dickinson/ServerInformationLogging/master/screenshots/Capture.PNG)
+![alt tag](https://raw.githubusercontent.com/Andrew-Dickinson/ServerInformationLogging/master/screenshots/Capture2.PNG)
+![alt tag](https://raw.githubusercontent.com/Andrew-Dickinson/ServerInformationLogging/master/screenshots/Capture3.PNG)
+
+
