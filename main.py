@@ -40,18 +40,18 @@ def run():
                        ts_data['avg_ping'], ts_data['bandwidth_down'],
                        ts_data['bandwidth_up'], ts_data['connected_users']])
 
-        except TypeError:
-            print "Error"
-            log(str(datetime.datetime.now().replace(microsecond=0)) + " Error2</br>" + "\n")
-            csv_store([timestamp, 999, 999, 999, 100, 100, 0, 0, 0, 0])
+        # except TypeError:
+        #     print "Error"
+        #     log(str(datetime.datetime.now().replace(microsecond=0)) + " Error2</br>" + "\n")
+        #     csv_store([timestamp, 0, 0, 0, 0, 0, 0, 0, 0, 0])
         except socket.error, e:
             print "Ping Error:" + str(e)
             log(str(datetime.datetime.now().replace(microsecond=0)) + " Error" + "</br>" + '\n')
-            csv_store([timestamp, 998, 998, 998, 100, 100, 0, 0, 0, 0])
+            csv_store([timestamp, 0, 0, 0, 0, 0, 0, 0, 0, 0])
         except EOFError:
             print "TS Connection Issue"
             log(str(datetime.datetime.now().replace(microsecond=0)) + " Error3" + "</br>" + '\n')
-            csv_store([timestamp, 998, 998, 998, 100, 100, 0, 0, 0, 0])
+            csv_store([timestamp, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
         time.sleep(10)
 

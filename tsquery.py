@@ -22,6 +22,7 @@ def query():
 
     response = svr.send_command('serverinfo')
     if response.response['msg'] != 'ok':
+        print response.response['msg']
         return
     svr_info = response.data[0]
 
